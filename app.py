@@ -59,7 +59,7 @@ div[data-testid="metric-container"] {
     box-shadow: 0 2px 8px rgba(0,0,0,0.06);
 }
 div[data-testid="metric-container"] label {
-    color: #6B7280 !important;
+    color: #2563EB !important;
     font-size: 13px !important;
     font-weight: 500 !important;
     text-transform: uppercase;
@@ -195,7 +195,7 @@ if page == "🏠 Vue d'ensemble":
     st.markdown("""
     <div class='page-header'>
         <h1>🍷 Tableau de Bord - Qualité du Vin Blanc</h1>
-        <p>Analyse exploratoire du dataset Vinho Verde · 4 898 échantillons · 11 variables physico-chimiques</p>
+        <p>Analyse exploratoire du dataset juice 3961 échantillons</p>
     </div>
     """, unsafe_allow_html=True)
 
